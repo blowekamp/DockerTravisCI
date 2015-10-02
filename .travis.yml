@@ -9,5 +9,5 @@ before_install:
 - docker pull debian:8
 
 script:
-- docker build -t test DockerFile
+- docker build -t test .
 
